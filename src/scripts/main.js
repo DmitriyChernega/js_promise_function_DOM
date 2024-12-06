@@ -14,6 +14,7 @@ const printMessage = (message) => {
   const div = document.createElement('div');
 
   div.className = 'message';
+  
   div.textContent = message;
 
   document.body.appendChild(div);
